@@ -8,10 +8,13 @@
     "jest": "^27.1.0"
   },
   "scripts": {
-    "test": "jest --watch --silent --noStackTrace"
+    "test": "jest --watch --silent --noStackTrace",
+    "test:ci": "jest --coverage"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
     "mongoose": "^6.0.4"
   }
 }
