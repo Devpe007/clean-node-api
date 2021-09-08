@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "jest --silent --noStackTrace --passWithNoTests",
-    "test:unit": "yarn test -- --watch"
+    "test:unit": "yarn test -- --watch -c jest-unit-config.js",
+    "test:integration": "yarn test -- --watch -c jest-integration-config.js"
   },
   "dependencies": {
     "express": "^4.17.1",
